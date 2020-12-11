@@ -119,6 +119,9 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+    $(DT_PATH)/overlay \
+    $(DT_PATH)/overlay-ancient \
+    $(DT_PATH)/overlay-system
 
 # Overlays - override vendor ones
 PRODUCT_PACKAGES += \
