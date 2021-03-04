@@ -22,10 +22,8 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 
 # Maintainer Properties
-EVO_BUILD_TYPE := OFFICIAL
-EVO_DONATE_URL := https://www.paypal.me/chiru2000
-EVO_MAINTAINER := CHIRANTH CHIRU
+ANCIENT_OFFICIAL=true
 
-BUILD_FINGERPRINT := POCO/phoenixin/phoenixin:10/QKQ1.190825.002/V12.0.2.0.QGHINXM:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:S/SPP1.210122.022/7158812:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
